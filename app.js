@@ -1,5 +1,4 @@
 const cfg=window.FINANCE_CONFIG;
-
 const db=cfg&&window.supabase?window.supabase.createClient(cfg.supabaseUrl,cfg.supabasePublishableKey):null;
 let householdId=null,cards=[],transactions=[],incomes=[],fixedCosts=[],pendingImports=[],batchMode=false,selectedTransactions=new Set();
 const currency=v=>Number(v||0).toLocaleString('pt-BR',{style:'currency',currency:'BRL'});

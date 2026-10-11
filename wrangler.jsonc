@@ -1,0 +1,8 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "nossa-vida-financeira-rj",
+  "compatibility_date": "2026-10-11",
+  "assets": {
+    "directory": "./dist"
+  }
+}
